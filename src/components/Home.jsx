@@ -2,7 +2,7 @@ import React from 'react'
 
 function Home() {
   return (
-    <div className='home-container'>
+    <div className='home-container text-center'>
     <div className='container m-4 p-4'>
         <h1 className='container'>Welcome to Photo Gallery App !!!</h1>
         <p className='home-content'>This App is used to store photos.</p>

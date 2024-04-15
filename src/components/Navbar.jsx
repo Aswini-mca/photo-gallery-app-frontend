@@ -52,7 +52,7 @@ function Navbar() {
                 <Link
                   className="nav-link"
                   aria-current="page"
-                  to="/"
+                  to="/login"
                   onClick={closeMenu}
                 >
                   LogIn
