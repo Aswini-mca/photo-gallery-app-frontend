@@ -14,13 +14,22 @@ function Navbar() {
     setMenuOpen(false);
   };
 
+  // Check if token is available in local storage
+  const token = localStorage.getItem('token');
+
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-light fixed-top">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">
-            Photo Gallery
-          </Link>
+          {token ? (
+            <Link className="navbar-brand" to="/gallery" onClick={closeMenu}>
+              Photo Gallery
+            </Link>
+          ) : (
+            <Link className="navbar-brand" to="/" onClick={closeMenu}>
+              Photo Gallery
+            </Link>
+          )}
           <button
             className="navbar-toggler"
             type="button"
@@ -62,6 +71,7 @@ function Navbar() {
                 <Link className="nav-link" to="/" onClick={() => { 
                   localStorage.removeItem('token');
                   closeMenu(); 
+                  alert('You are logged out..')
                   }}>
                   🔓
                 </Link>
