@@ -1,3 +1,24 @@
+# Photo Gallery App Documentation
+
+Welcome to the documentation for the Photo Gallery App! This application is built using the MERN (MongoDB, Express.js, React.js, Node.js) stack and utilizes token-based JWT authentication for user access control. With this app, users can view their photo collections upon logging in and perform CRUD (Create, Read, Update, Delete) operations with ease.
+
+# Table of Contents
+ Project Overview
+. Features
+. Installation
+. Dependencies
+. Contributing
+
+# Project Overview
+The Photo Gallery App is designed to provide users with a platform to manage their photo collections securely. By implementing JWT authentication, only authenticated users can access their collections, ensuring data privacy. The CRUD operations enable users to add, view, update, and delete photos according to their preferences.
+
+# Features
+Authentication: Users can sign up and log in securely using JWT tokens.
+View Collection: Upon logging in, users can view their photo collection.
+Add Photo: Users can upload new photos to their collection.
+Update Photo: Users can update the details of existing photos.
+Delete Photo: Users can remove unwanted photos from their collection.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +89,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Dependencies
+# Client:
+React
+React Router DOM
+
+# Server:
+Node.js
+Express.js
+Mongoose
+jsonwebtoken
+bcryptjs
+
+# Contributing
+Contributions to the Photo Gallery App are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request on GitHub.
