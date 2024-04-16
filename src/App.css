@@ -31,3 +31,10 @@ body {
   width: 350px;
   margin-left: 500px;
 }
+/* Gallery component css */
+#photo-enlarge{
+  cursor: pointer;
+}
+.cursor-pointer{
+  cursor: pointer;
+}

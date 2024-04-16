@@ -7,6 +7,9 @@ import Login from "./components/Login";
 import Signup from "./components/Signup";
 import Forgetpassword from "./components/ForgetPassword";
 import Resetpassword from "./components/ResetPassword";
+import Gallery from "./components/Gallery";
+import AddPhoto from "./components/AddPhoto";
+import EditPhoto from "./components/EditPhoto";
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/forget-password" element={<Forgetpassword />} />
         <Route path="/reset-password/:resetToken" element={<Resetpassword />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/add-photo" element={<AddPhoto />} />
+        <Route path="/edit-photo/:id" element={<EditPhoto />} />
       </Routes>
       <footer>
         <Footer />

@@ -29,7 +29,7 @@ function Login() {
         if (data.message) {
             setMessage(data.message)
             setError('')
-            //   navigate('/')
+            navigate('/gallery')
         }
         if (data.token) {
             setError("");
