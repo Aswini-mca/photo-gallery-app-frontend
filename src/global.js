@@ -1,1 +1,1 @@
-export const API = 'http://localhost:9000'
+export const API = 'https://photo-gallery-app-backend-e6s3.onrender.com'

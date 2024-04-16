@@ -59,10 +59,10 @@ function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/" onClick={() => 
-                { localStorage.removeItem('token');
-                closeMenu(); 
-                }}>
+                <Link className="nav-link" to="/" onClick={() => { 
+                  localStorage.removeItem('token');
+                  closeMenu(); 
+                  }}>
                   🔓
                 </Link>
               </li>
